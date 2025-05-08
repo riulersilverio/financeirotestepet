@@ -4,7 +4,7 @@ import plotly.express as px
 import io # Necessário para ler string como arquivo CSV
 
 # --- Configurações Iniciais ---
-LOGO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLP5iDLJWxquSW4SOt-sSsRZS1yg6gcH7Vnw&s"
+# LOGO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLP5iDLJWxquSW4SOt-sSsRZS1yg6gcH7Vnw&s"
 
 # Dados CSV embutidos diretamente no script
 # Copie e cole os dados CSV que te passei anteriormente aqui dentro das aspas triplas
@@ -39,7 +39,7 @@ csv_data_string = """Data,Receita_Total,Custos_Operacionais,Novos_Clientes,Carte
 st.set_page_config(layout="wide", page_title="Dashboard Financeiro")
 
 # Colocar o logo na sidebar
-st.sidebar.image(LOGO_URL, width=150) # Ajuste a largura conforme necessário
+# st.sidebar.image(LOGO_URL, width=150) # Ajuste a largura conforme necessário
 st.sidebar.title("Opções de Análise")
 
 st.title("📊 Dashboard de Análise Financeira da Empresa")
