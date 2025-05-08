@@ -39,7 +39,7 @@ csv_data_string = """Data,Receita_Total,Custos_Operacionais,Novos_Clientes,Carte
 st.set_page_config(layout="wide", page_title="Dashboard Financeiro")
 
 # Colocar o logo na sidebar
- st.sidebar.image(LOGO_URL, width=150) # Ajuste a largura conforme necessário
+st.sidebar.image(LOGO_URL, width=150) # Ajuste a largura conforme necessário
 st.sidebar.title("Opções de Análise")
 
 st.title("📊 Dashboard de Análise Financeira da Empresa")
