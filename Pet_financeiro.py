@@ -4,7 +4,7 @@ import plotly.express as px
 import io # Necessário para ler string como arquivo CSV
 
 # --- Configurações Iniciais ---
- LOGO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLP5iDLJWxquSW4SOt-sSsRZS1yg6gcH7Vnw&s"
+LOGO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLP5iDLJWxquSW4SOt-sSsRZS1yg6gcH7Vnw&s"
 
 # Dados CSV embutidos diretamente no script
 # Copie e cole os dados CSV que te passei anteriormente aqui dentro das aspas triplas
